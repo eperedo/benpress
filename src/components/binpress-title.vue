@@ -5,9 +5,9 @@
 </template>
 
 <script>
-	export default {
-		name: 'binpress-title'
-	}
+export default {
+	name: 'binpress-title',
+};
 </script>
 
 <style scoped>
