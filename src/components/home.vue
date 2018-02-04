@@ -3,7 +3,7 @@
 		<binpress-logo />
 		<binpress-title />
 		<store-logo />
-		<!-- <img src="header-icon.svg" /> -->
+		<binpress-activate-message />
 	</section>
 </template>
 
@@ -11,10 +11,12 @@
 import binpressLogo from './binpress-logo';
 import binpressTitle from './binpress-title';
 import storeLogo from './store-logo';
+import binpressActivateMessage from './binpress-activate-message';
 
 export default {
 	name: 'home',
 	components: {
+		binpressActivateMessage,
 		binpressLogo,
 		binpressTitle,
 		storeLogo,
