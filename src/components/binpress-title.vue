@@ -10,9 +10,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .binpress-title {
-	color: #fff;
+	color: map-get($colors, white);
 	font-family: Georgia;
 	font-size: 46px;
 	font-weight: bold;

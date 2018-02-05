@@ -42,7 +42,7 @@ export default {
 }
 
 .description {
-	color: #7f7f7f;
+	color: map-get($colors, grey-description);
 	font-family: Arial;
 	font-size: 13px;
 	line-height: 1.46;
@@ -50,7 +50,7 @@ export default {
 }
 
 .title {
-	color: #525252;
+	color: map-get($colors, grey-title);
 	font-family: Georgia;
 	font-size: 20px;
 	font-weight: bold;

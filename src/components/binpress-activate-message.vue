@@ -11,9 +11,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .activate-message {
-	color: #fff;
+	color: map-get($colors, white);
 	font-family: Arial;
 	font-size: 13px;
 	line-height: 2.15;

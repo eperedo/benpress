@@ -67,7 +67,7 @@
 							<path stroke="#3E79AC" d="M2.596 80.5l5.732 2.293c.965.386 2.633.707 3.673.707H133c1.04 0 2.707-.32 3.673-.707l5.732-2.293H2.596z"/>
 					</g>
 					<g transform="translate(68 56)">
-							<mask id="f" fill="#fff">
+							<mask id="f" fill="map-get($colors, white)">
 									<use xlink:href="#e"/>
 							</mask>
 							<use fill="#3675AB" xlink:href="#e"/>
@@ -93,7 +93,7 @@
 									<path stroke="#115E96" d="M2.596 80.5l5.732 2.293c.965.386 2.633.707 3.673.707H133c1.04 0 2.707-.32 3.673-.707l5.732-2.293H2.596z"/>
 							</g>
 							<g transform="translate(164 56)">
-									<mask id="n" fill="#fff">
+									<mask id="n" fill="map-get($colors, white)">
 											<use xlink:href="#m"/>
 									</mask>
 									<use fill="#3777AE" xlink:href="#m"/>

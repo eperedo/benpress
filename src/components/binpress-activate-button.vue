@@ -17,12 +17,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .binpress-button {
-	background-color: #115d95;
+	background-color: map-get($colors, blue);
 	border: none;
 	border-radius: 40px;
-	color: #fff;
+	color: map-get($colors, white);
 	font-family: Arial;
 	font-size: 11px;
 	font-weight: bold;

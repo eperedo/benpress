@@ -36,13 +36,13 @@
 									<path stroke="#B3B8BD" d="M2.596 80.5l5.732 2.293c.965.386 2.633.707 3.673.707H133c1.04 0 2.707-.32 3.673-.707l5.732-2.293H2.596z"/>
 							</g>
 							<g transform="translate(17 6)">
-									<mask id="f" fill="#fff">
+									<mask id="f" fill="map-get($colors, white)">
 											<use xlink:href="#e"/>
 									</mask>
 									<use fill="#F3F6F8" xlink:href="#e"/>
 									<g mask="url(#f)">
 											<use fill="#000" filter="url(#g)" xlink:href="#h"/>
-											<use fill="#FFF" xlink:href="#h"/>
+											<use fill="map-get($colors, white)" xlink:href="#h"/>
 									</g>
 							</g>
 							<path fill="#D1D6DB" d="M36 18h15v3H36z"/>
@@ -95,13 +95,13 @@
 									<path stroke="#B3B8BD" d="M2.596 80.5l5.732 2.293c.965.386 2.633.707 3.673.707H133c1.04 0 2.707-.32 3.673-.707l5.732-2.293H2.596z"/>
 							</g>
 							<g transform="translate(17 6)">
-									<mask id="f" fill="#fff">
+									<mask id="f" fill="map-get($colors, white)">
 											<use xlink:href="#e"/>
 									</mask>
 									<use fill="#F3F6F8" xlink:href="#e"/>
 									<g mask="url(#f)">
 											<use fill="#000" filter="url(#g)" xlink:href="#h"/>
-											<use fill="#FFF" xlink:href="#h"/>
+											<use fill="map-get($colors, white)" xlink:href="#h"/>
 									</g>
 							</g>
 							<g fill="#D1D6DB">
@@ -147,7 +147,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .info {
 	padding-top: 72px;
 	padding-left: 83px;

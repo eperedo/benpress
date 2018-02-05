@@ -10,9 +10,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .binpress-logo {
-	color: #fff;
+	color: map-get($colors, white);
 	margin-top: 0;
 	padding: 29px 0 0 34px;
 	width: 80px;

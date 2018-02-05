@@ -29,6 +29,6 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-	background-color: #319ae7;
+	background-color: map-get($colors, blue-light);
 }
 </style>
