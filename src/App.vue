@@ -40,7 +40,7 @@ export default {
 .contact {
 	color: map-get($colors, grey);
 	font-family: Arial;
-	font-size: 13px;
+	font-size: 16px;
 	margin: 0 auto 46px auto;
 	height: 15px;
 	width: 164px;

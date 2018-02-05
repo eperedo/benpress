@@ -24,7 +24,7 @@ export default {
 	border-radius: 40px;
 	color: map-get($colors, white);
 	font-family: Arial;
-	font-size: 11px;
+	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0.9px;
 	margin-bottom: 47px;

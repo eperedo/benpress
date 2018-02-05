@@ -44,7 +44,7 @@ export default {
 .description {
 	color: map-get($colors, grey-description);
 	font-family: Arial;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 1.46;
 	text-align: left;
 }
