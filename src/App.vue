@@ -22,7 +22,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import './stylesheets/variables.scss';
+
 #app {
 	font-family: 'Georgia', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -34,11 +36,11 @@ export default {
 	background-color: #d8d8d8;
 	height: 1px;
 	margin: 0 auto 37px auto;
-	width: 590px;
+	width: 100%;
 }
 
 .contact {
-	color: #79828b;
+	color: map-get($colors, grey);
 	font-family: Arial;
 	font-size: 13px;
 	margin: 0 auto 46px auto;

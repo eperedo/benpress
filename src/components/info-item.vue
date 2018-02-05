@@ -33,6 +33,7 @@ export default {
 <style lang="scss" scoped>
 .info-item {
 	display: flex;
+	justify-content: center;
 	margin-bottom: 76px;
 
 	.logo {
@@ -54,5 +55,11 @@ export default {
 	font-size: 20px;
 	font-weight: bold;
 	text-align: left;
+}
+
+@media only screen and (max-device-width: 667px) {
+	.info-item {
+		flex-direction: column;
+	}
 }
 </style>
